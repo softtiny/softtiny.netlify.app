@@ -1,3 +1,5 @@
+https://stackoverflow.com/questions/59296251/using-netlify-lambda-functions-to-send-emails-from-a-gatsbyjs-site
+
 # Gatsby Portfolio Website
 
 This repo contains a static website written with [GatsbyJS](https://www.gatsbyjs.org/), integrated with content coming from [DatoCMS](https://www.datocms.com).
