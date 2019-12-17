@@ -1,4 +1,3 @@
-https://stackoverflow.com/questions/59296251/using-netlify-lambda-functions-to-send-emails-from-a-gatsbyjs-site
 
 # Gatsby Portfolio Website
 
