@@ -27,7 +27,6 @@ const TemplateWrapper = ({ children }) => (
             html
           }
         }
-        copyright
       }
       allDatoCmsSocialProfile(sort: { fields: [position], order: ASC }) {
         edges {
@@ -64,17 +63,6 @@ const TemplateWrapper = ({ children }) => (
               <Link to="/about">About</Link>
             </li>
           </ul>
-          <p className="sidebar__social">
-            {data.allDatoCmsSocialProfile.edges.map(({ node: profile }) => (
-              <a
-                key={profile.profileType}
-                href={profile.url}
-                target="blank"
-                className={`social social--${profile.profileType.toLowerCase()}`}
-              > </a>
-            ))}
-          </p>
-          <div className="sidebar__copyright">{data.datoCmsHome.copyright}</div>
         </div>
       </div>
       <div className="container__body">
