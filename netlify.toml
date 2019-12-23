@@ -1,0 +1,4 @@
+ld]
+  command = "npm run build"
+  functions = "lambda"
+  publish = "public"
