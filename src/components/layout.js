@@ -28,14 +28,6 @@ const TemplateWrapper = ({ children }) => (
           }
         }
       }
-      allDatoCmsSocialProfile(sort: { fields: [position], order: ASC }) {
-        edges {
-          node {
-            profileType
-            url
-          }
-        }
-      }
     }
   `}
   render={data => (
