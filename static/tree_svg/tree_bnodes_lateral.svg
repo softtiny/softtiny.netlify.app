@@ -32,8 +32,8 @@
 </g>
 <!-- []{insert&#45;&gt;end -->
 <g id="edge23" class="edge"><title>[]{insert&#45;&gt;end</title>
-<path fill="none" stroke="#22f2f2" d="M1190.88,-633.747C1221.83,-621.383 1264.66,-597.347 1264.66,-559 1264.66,-559 1264.66,-559 1264.66,-90 1264.66,-22.4586 744.351,-18.5808 598.984,-18.8154"/>
-<polygon fill="#22f2f2" stroke="#22f2f2" points="598.78,-15.3158 588.789,-18.8398 598.797,-22.3157 598.78,-15.3158"/>
+<path fill="none" stroke="#50364e" d="M1190.88,-633.747C1221.83,-621.383 1264.66,-597.347 1264.66,-559 1264.66,-559 1264.66,-559 1264.66,-90 1264.66,-22.4586 744.351,-18.5808 598.984,-18.8154"/>
+<polygon fill="#50364e" stroke="#50364e" points="598.78,-15.3158 588.789,-18.8398 598.797,-22.3157 598.78,-15.3158"/>
 </g>
 <!-- []{append -->
 <g id="node2" class="node"><title>[]{append</title>
@@ -95,8 +95,8 @@
 </g>
 <!-- parent{contents&#45;&gt;_Bnodes{children? -->
 <g id="edge18" class="edge"><title>parent{contents&#45;&gt;_Bnodes{children?</title>
-<path fill="none" stroke="#ea4f16" d="M515.722,-436.799C511.628,-424.265 504.367,-407.116 497.355,-393.201"/>
-<polygon fill="#ea4f16" stroke="#ea4f16" points="500.353,-391.383 492.583,-384.181 494.166,-394.657 500.353,-391.383"/>
+<path fill="none" stroke="#50364e" d="M515.722,-436.799C511.628,-424.265 504.367,-407.116 497.355,-393.201"/>
+<polygon fill="#50364e" stroke="#50364e" points="500.353,-391.383 492.583,-384.181 494.166,-394.657 500.353,-391.383"/>
 </g>
 <!-- dest{children -->
 <g id="node5" class="node"><title>dest{children</title>
@@ -105,8 +105,8 @@
 </g>
 <!-- dest{children&#45;&gt;[]{insert -->
 <g id="edge22" class="edge"><title>dest{children&#45;&gt;[]{insert</title>
-<path fill="none" stroke="#22f2f2" d="M902.724,-181.604C1001.02,-185.793 1165.98,-195.498 1186.66,-214 1209.01,-233.991 1200.66,-250.014 1200.66,-280 1200.66,-559 1200.66,-559 1200.66,-559 1200.66,-580.565 1189.82,-602.425 1179.29,-618.576"/>
-<polygon fill="#22f2f2" stroke="#22f2f2" points="1176.33,-616.702 1173.54,-626.923 1182.1,-620.672 1176.33,-616.702"/>
+<path fill="none" stroke="#50364e" d="M902.724,-181.604C1001.02,-185.793 1165.98,-195.498 1186.66,-214 1209.01,-233.991 1200.66,-250.014 1200.66,-280 1200.66,-559 1200.66,-559 1200.66,-559 1200.66,-580.565 1189.82,-602.425 1179.29,-618.576"/>
+<polygon fill="#50364e" stroke="#50364e" points="1176.33,-616.702 1173.54,-626.923 1182.1,-620.672 1176.33,-616.702"/>
 <text text-anchor="middle" x="1225.16" y="-407.8" font-family="Times New Roman,serif" font-size="14.00">(0,tmp6)</text>
 </g>
 <!-- dest{children&#45;&gt;[]{append -->
@@ -139,8 +139,8 @@
 </g>
 <!-- _Bnodes{children&#45;&gt;dest{children -->
 <g id="edge21" class="edge"><title>_Bnodes{children&#45;&gt;dest{children</title>
-<path fill="none" stroke="#22f2f2" d="M790.038,-262.867C800.139,-247.196 812.937,-223.766 821.442,-205.651"/>
-<polygon fill="#22f2f2" stroke="#22f2f2" points="824.775,-206.773 825.682,-196.217 818.39,-203.904 824.775,-206.773"/>
+<path fill="none" stroke="#50364e" d="M790.038,-262.867C800.139,-247.196 812.937,-223.766 821.442,-205.651"/>
+<polygon fill="#50364e" stroke="#50364e" points="824.775,-206.773 825.682,-196.217 818.39,-203.904 824.775,-206.773"/>
 </g>
 <!-- parent_index &gt; dest_index -->
 <g id="node8" class="node"><title>parent_index &gt; dest_index</title>
@@ -167,8 +167,8 @@
 </g>
 <!-- _Bnodes{children?&#45;&gt;_Bnodes{children -->
 <g id="edge20" class="edge"><title>_Bnodes{children?&#45;&gt;_Bnodes{children</title>
-<path fill="none" stroke="#22f2f2" d="M564.626,-363.216C608.028,-358.982 661.095,-350.178 705.661,-332 710.106,-330.187 727.747,-317.58 744.205,-305.481"/>
-<polygon fill="#22f2f2" stroke="#22f2f2" points="746.663,-308.016 752.628,-299.26 742.504,-302.386 746.663,-308.016"/>
+<path fill="none" stroke="#50364e" d="M564.626,-363.216C608.028,-358.982 661.095,-350.178 705.661,-332 710.106,-330.187 727.747,-317.58 744.205,-305.481"/>
+<polygon fill="#50364e" stroke="#50364e" points="746.663,-308.016 752.628,-299.26 742.504,-302.386 746.663,-308.016"/>
 <text text-anchor="middle" x="837.161" y="-320.8" font-family="Times New Roman,serif" font-size="14.00">Yes {tmp6 = _Bnodes{children{pop()}</text>
 </g>
 <!-- _Bnodes{children?&#45;&gt;end -->
@@ -179,8 +179,8 @@
 </g>
 <!-- _Bnodes{children?&#45;&gt;end -->
 <g id="edge19" class="edge"><title>_Bnodes{children?&#45;&gt;end</title>
-<path fill="none" stroke="#ea4f16" d="M468.748,-351.674C457.279,-335.354 441.661,-308.303 441.661,-282 441.661,-282 441.661,-282 441.661,-90 441.661,-50.673 489.99,-32.6667 525.307,-24.7586"/>
-<polygon fill="#ea4f16" stroke="#ea4f16" points="526.235,-28.1412 535.326,-22.7012 524.827,-21.2843 526.235,-28.1412"/>
+<path fill="none" stroke="#50364e" d="M468.748,-351.674C457.279,-335.354 441.661,-308.303 441.661,-282 441.661,-282 441.661,-282 441.661,-90 441.661,-50.673 489.99,-32.6667 525.307,-24.7586"/>
+<polygon fill="#50364e" stroke="#50364e" points="526.235,-28.1412 535.326,-22.7012 524.827,-21.2843 526.235,-28.1412"/>
 <text text-anchor="middle" x="450.661" y="-174.3" font-family="Times New Roman,serif" font-size="14.00">No</text>
 </g>
 <!-- start -->
