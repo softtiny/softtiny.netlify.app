@@ -85,7 +85,7 @@
 <g id="edge8" class="edge"><title>index &lt; len(current{contents)&#45;&gt;getattr(current,&#39;children&#39;,None)</title>
 <path fill="none" stroke="#0000ff" d="M583.162,-614.44C402.484,-603.842 49.8945,-577.989 12.8001,-536 -4.26671,-516.681 -4.26671,-497.319 12.8001,-478 49.0562,-436.96 386.708,-411.335 570.654,-400.302"/>
 <polygon fill="#0000ff" stroke="#0000ff" points="570.874,-403.795 580.648,-399.707 570.458,-396.807 570.874,-403.795"/>
-<text text-anchor="middle" x="116.3" y="-503.3" font-family="Times New Roman,serif" font-size="14.00">NO (current=current.children[index])</text>
+<text text-anchor="middle" x="116.3" y="-487.3" font-family="Times New Roman,serif" font-size="14.00">NO (current=current.children[index])</text>
 </g>
 <!-- current{contents[index]==item -->
 <g id="node5" class="node"><title>current{contents[index]==item</title>
