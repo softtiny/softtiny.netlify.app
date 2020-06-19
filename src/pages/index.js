@@ -13,6 +13,8 @@ const IndexPage = ({ data }) =>{
           let tLink
           if(work.slug=="tree"){
             tLink="/tree"
+          }else if(work.slug=="turbogears"){
+            tLink="/TurboGears"
           }else{
             tLink=`/works/${work.slug}`
           }
