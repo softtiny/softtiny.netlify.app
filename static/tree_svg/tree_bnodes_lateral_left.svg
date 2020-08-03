@@ -59,8 +59,8 @@
 </g>
 <!-- parent{contents{[move_index]&#45;&gt;_Bnodes{children? -->
 <g id="edge6" class="edge"><title>parent{contents{[move_index]&#45;&gt;_Bnodes{children?</title>
-<path fill="none" stroke="black" d="M333.546,-505.038C336.383,-504.669 339.203,-504.322 342,-504 443.351,-492.341 1161.6,-512.92 1260,-486 1316.63,-470.508 1330.32,-459.092 1375,-421 1397.45,-401.859 1418.74,-378.246 1437.22,-355.164"/>
-<polygon fill="black" stroke="black" points="1440.19,-357.049 1443.64,-347.03 1434.7,-352.714 1440.19,-357.049"/>
+<path fill="none" stroke="#ea4f16" d="M333.546,-505.038C336.383,-504.669 339.203,-504.322 342,-504 443.351,-492.341 1161.6,-512.92 1260,-486 1316.63,-470.508 1330.32,-459.092 1375,-421 1397.45,-401.859 1418.74,-378.246 1437.22,-355.164"/>
+<polygon fill="#ea4f16" stroke="#ea4f16" points="1440.19,-357.049 1443.64,-347.03 1434.7,-352.714 1440.19,-357.049"/>
 </g>
 <!-- left_sib{contents{append -->
 <g id="node4" class="node"><title>left_sib{contents{append</title>
@@ -96,8 +96,8 @@
 </g>
 <!-- _Bnodes{contents{pop(0)&#45;&gt;parent{contents{[move_index] -->
 <g id="edge5" class="edge"><title>_Bnodes{contents{pop(0)&#45;&gt;parent{contents{[move_index]</title>
-<path fill="none" stroke="black" d="M203.324,-41.7762C242.016,-46.827 282.091,-55.4575 294,-70 412.391,-214.577 320.672,-320.977 233,-486 231.224,-489.342 229.157,-492.586 226.881,-495.713"/>
-<polygon fill="black" stroke="black" points="223.984,-493.73 220.426,-503.71 229.431,-498.127 223.984,-493.73"/>
+<path fill="none" stroke="#ea4f16" d="M203.324,-41.7762C242.016,-46.827 282.091,-55.4575 294,-70 412.391,-214.577 320.672,-320.977 233,-486 231.224,-489.342 229.157,-492.586 226.881,-495.713"/>
+<polygon fill="#ea4f16" stroke="#ea4f16" points="223.984,-493.73 220.426,-503.71 229.431,-498.127 223.984,-493.73"/>
 <text text-anchor="middle" x="461" y="-258.3" font-family="Times New Roman,serif" font-size="14.00">parent{contents{[move_index]=upItem</text>
 </g>
 <!-- _Bnodes{children{pop(0)&#45;&gt;left_sib{children{append -->
