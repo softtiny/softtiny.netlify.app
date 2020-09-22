@@ -15,7 +15,7 @@ const IndexPage = ({ data }) =>{
             tLink="/tree"
           }else if(work.slug=="turbogears"){
             tLink="/turbogears"
-          }else if(work.slug=="tree_v2"){
+          }else if(work.slug=="btree_v2"){
             tLink="/tree_v2"
           }else{
             tLink=`/works/${work.slug}`

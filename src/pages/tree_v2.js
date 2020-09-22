@@ -2,8 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import {  Link,graphql } from "gatsby"
-const Tree = ({data:{tree,datoCmsWork}}) =>{ 
-    console.log(tree)
+const TreeV2 = ({data:{tree,datoCmsWork}}) =>{ 
     return (
         <Layout>
             <div>
@@ -43,8 +42,8 @@ const Tree = ({data:{tree,datoCmsWork}}) =>{
     )
 }
 export const query = graphql`
-  query TreeQuery {
-    tree: allFile(filter: { sourceInstanceName: { eq: "tree_v2_svg" } }) {
+  query TreeV2Query {
+    tree: allFile(filter: { sourceInstanceName: { eq: "treeV2Svg" } }) {
         edges {
           node {
             relativePath
@@ -69,7 +68,7 @@ export const query = graphql`
   }
 `
 
-export default Tree
+export default TreeV2
 
 // {tree.allFile.edges.map(({node:{relativePath}})=>{
 //     return (<li>

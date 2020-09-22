@@ -40,6 +40,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/static/treeV2Svg`,// 文件路径
+        name: 'treeV2Svg' // 名称，可以用来过滤
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/static/tree_svg`,// 文件路径
         name: 'tree_svg' // 名称，可以用来过滤
       }
