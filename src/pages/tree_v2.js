@@ -14,7 +14,7 @@ const TreeV2 = ({data:{tree,datoCmsWork}}) =>{
                             </li>
                             {tree.edges.map(({node:{relativePath,}},idx)=>{
                                 return (<li  key={idx} >
-                                    <a href={`/tree_v2_svg/${relativePath}`} target="_blank">{relativePath}</a>
+                                    <a href={`/treeV2Svg/${relativePath}`} target="_blank">{relativePath}</a>
                                 </li>)
                             })}
                         </ul>
