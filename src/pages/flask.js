@@ -51,7 +51,7 @@ export const query = graphql`
           }
         } 
     }
-    datoCmsWork(slug: {eq: "tree"}) {
+    datoCmsWork(slug: {eq: "flask"}) {
         title
         excerpt
         descriptionNode {

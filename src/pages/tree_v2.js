@@ -50,7 +50,7 @@ export const query = graphql`
           }
         } 
     }
-    datoCmsWork(slug: {eq: "tree"}) {
+    datoCmsWork(slug: {eq: "btree_v2"}) {
         title
         excerpt
         descriptionNode {
