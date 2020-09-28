@@ -33,6 +33,13 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
+        path: `${__dirname}/static/flask`,// 文件路径
+        name: 'flask' // 名称，可以用来过滤
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
         path: `${__dirname}/static/TurboGears`,// 文件路径
         name: 'TurboGears' // 名称，可以用来过滤
       }
