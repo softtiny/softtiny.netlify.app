@@ -33,13 +33,13 @@
 <polygon fill="none" stroke="black" points="1734.09,-8 1734.09,-565 2223.5,-565 2223.5,-8 1734.09,-8"/>
 <text text-anchor="middle" x="1978.79" y="-549.8" font-family="Times New Roman,serif" font-size="14.00">current bnode split</text>
 </g>
-<g id="clust8" class="cluster"><title>cluster_cur_bnode</title>
-<polygon fill="none" stroke="#ea4f16" points="1756.38,-307 1756.38,-490 2201.2,-490 2201.2,-307 1756.38,-307"/>
-<text text-anchor="middle" x="1978.79" y="-474.8" font-family="Times New Roman,serif" font-size="14.00">cur node</text>
-</g>
 <g id="clust7" class="cluster"><title>cluster_sibling</title>
 <polygon fill="none" stroke="blue" points="1742.09,-116 1742.09,-299 2215.5,-299 2215.5,-116 1742.09,-116"/>
 <text text-anchor="middle" x="1978.79" y="-283.8" font-family="Times New Roman,serif" font-size="14.00">sibling</text>
+</g>
+<g id="clust8" class="cluster"><title>cluster_cur_bnode</title>
+<polygon fill="none" stroke="#ea4f16" points="1756.38,-307 1756.38,-490 2201.2,-490 2201.2,-307 1756.38,-307"/>
+<text text-anchor="middle" x="1978.79" y="-474.8" font-family="Times New Roman,serif" font-size="14.00">cur node</text>
 </g>
 <g id="clust11" class="cluster"><title>cluster_par_op</title>
 <polygon fill="none" stroke="blue" points="637.711,-253 637.711,-436 1353.17,-436 1353.17,-253 637.711,-253"/>
@@ -280,8 +280,8 @@
 </g>
 <!-- parent_emp -->
 <g id="node33" class="node"><title>parent_emp</title>
-<polygon fill="lightgrey" stroke="black" points="1978.79,-854 1916.29,-836 1978.79,-818 2041.3,-836 1978.79,-854"/>
-<text text-anchor="middle" x="1978.79" y="-832.3" font-family="Times New Roman,serif" font-size="14.00">parent=[]</text>
+<polygon fill="lightgrey" stroke="black" points="1978.79,-854 1897.18,-836 1978.79,-818 2060.4,-836 1978.79,-854"/>
+<text text-anchor="middle" x="1978.79" y="-832.3" font-family="Times New Roman,serif" font-size="14.00">parent=None</text>
 </g>
 <!-- tree root=parent -->
 <g id="node35" class="node"><title>tree root=parent</title>
@@ -290,8 +290,8 @@
 </g>
 <!-- parent_emp&#45;&gt;tree root=parent -->
 <g id="edge14" class="edge"><title>parent_emp&#45;&gt;tree root=parent</title>
-<path fill="none" stroke="black" d="M2041.32,-836C2100.43,-836 2189.99,-836 2254.27,-836"/>
-<polygon fill="black" stroke="black" points="2254.37,-839.5 2264.37,-836 2254.37,-832.5 2254.37,-839.5"/>
+<path fill="none" stroke="black" d="M2060.83,-836C2118.86,-836 2196.6,-836 2254.13,-836"/>
+<polygon fill="black" stroke="black" points="2254.27,-839.5 2264.27,-836 2254.27,-832.5 2254.27,-839.5"/>
 <text text-anchor="middle" x="2239" y="-839.8" font-family="Times New Roman,serif" font-size="14.00">no</text>
 </g>
 <!-- start -->
@@ -301,8 +301,8 @@
 </g>
 <!-- start&#45;&gt;parent_emp -->
 <g id="edge13" class="edge"><title>start&#45;&gt;parent_emp</title>
-<path fill="none" stroke="black" d="M1547.79,-836C1616.22,-836 1802.35,-836 1905.88,-836"/>
-<polygon fill="black" stroke="black" points="1905.94,-839.5 1915.94,-836 1905.94,-832.5 1905.94,-839.5"/>
+<path fill="none" stroke="black" d="M1547.79,-836C1612.26,-836 1781.17,-836 1887.09,-836"/>
+<polygon fill="black" stroke="black" points="1887.13,-839.5 1897.13,-836 1887.13,-832.5 1887.13,-839.5"/>
 </g>
 <!-- contents_newroot -->
 <g id="node36" class="node"><title>contents_newroot</title>
