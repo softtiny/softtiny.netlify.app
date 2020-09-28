@@ -43,7 +43,7 @@ const Tree = ({data:{tree,datoCmsWork}}) =>{
     )
 }
 export const query = graphql`
-  query TreeQuery {
+  query FlaskQuery {
     tree: allFile(filter: { sourceInstanceName: { eq: "flask" } }) {
         edges {
           node {
