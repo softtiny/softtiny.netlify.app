@@ -43,7 +43,7 @@ const Sitepkg = ({data:{sitepkg,datoCmsWork}}) =>{
     )
 }
 export const query = graphql`
-  query TreeQuery {
+  query SitepkgQuery {
     sitepkg: allFile(filter: { sourceInstanceName: { eq: "sitepkg" } }) {
         edges {
           node {
