@@ -57,7 +57,7 @@ module.exports = {
         path: `${__dirname}/static/sitepkg`,// 文件路径
         name: 'sitepkg' // 名称，可以用来过滤
       }
-    }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
