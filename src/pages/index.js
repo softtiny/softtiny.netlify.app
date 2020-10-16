@@ -19,6 +19,8 @@ const IndexPage = ({ data }) =>{
             tLink="/flask"
           }else if(work.slug=="btree_v2"){
             tLink="/tree_v2"
+          }else if(work.slug=="treev3"){
+            tLink="/treev3"
           }else if(work.slug=="sitepkg"){
             tLink="/sitepkg"
           }else{
