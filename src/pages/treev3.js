@@ -5,7 +5,7 @@ import {  Link,graphql } from "gatsby"
 const Treev3 = ({data:{treev3,datoCmsWork}}) =>{ 
     console.log(treev3)
     if(!datoCmsWork){
-        datoCmsWork={title:'',excerpt:'',{coverImage:{fluid:'404'}},descriptionNode:{childMarkdownRemark:{html:'<b><b>'}}}
+        datoCmsWork={title:'',excerpt:'',coverImage:{fluid:'404'},descriptionNode:{childMarkdownRemark:{html:'<b><b>'}}}
     }
     return (
         <Layout>
