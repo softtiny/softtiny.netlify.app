@@ -32,7 +32,7 @@
 <g id="node2" class="node"><title>project_menu</title>
 <polygon fill="#0e0f11" stroke="black" stroke-width="0.1" points="916,-893 484,-893 484,-743 916,-743 916,-893"/>
 <text text-anchor="start" x="491" y="-858.8" font-family="monospace" font-size="14.00" fill="#ffffff">.</text>
-<text text-anchor="start" x="491" y="-843.8" font-family="monospace" font-size="14.00" fill="#ffffff">├── hello_world</text>
+<text text-anchor="start" x="491" y="-843.8" font-family="monospace" font-size="14.00" fill="#ffffff">├── fashion</text>
 <text text-anchor="start" x="491" y="-828.8" font-family="monospace" font-size="14.00" fill="#ffffff">│ &#160;&#160;├── __init__.py</text>
 <text text-anchor="start" x="491" y="-813.8" font-family="monospace" font-size="14.00" fill="#ffffff">│ &#160;&#160;└── tests</text>
 <text text-anchor="start" x="491" y="-798.8" font-family="monospace" font-size="14.00" fill="#ffffff">│ &#160;&#160;&#160;&#160;&#160;&#160;└── __init__.py</text>
@@ -196,7 +196,7 @@
 <polygon fill="#0e0f11" stroke="black" stroke-width="0.1" points="448,-107.5 16,-107.5 16,-16.5 448,-16.5 448,-107.5"/>
 <text text-anchor="start" x="23" y="-73.3" font-family="monospace" font-size="14.00" fill="#ffffff">#[entry_points]</text>
 <text text-anchor="start" x="23" y="-58.3" font-family="monospace" font-size="14.00" fill="#ffffff">console_scripts =</text>
-<text text-anchor="start" x="23" y="-43.3" font-family="monospace" font-size="14.00" fill="#ffffff"> &#160;&#160;&#160;hello_world &#160;= &#160;fashion.shell:main</text>
+<text text-anchor="start" x="23" y="-43.3" font-family="monospace" font-size="14.00" fill="#ffffff"> &#160;&#160;&#160;fashion &#160;= &#160;fashion.shell:main</text>
 </g>
 <!-- use_install -->
 <g id="node17" class="node"><title>use_install</title>
@@ -211,7 +211,7 @@
 <!-- entry_run -->
 <g id="node13" class="node"><title>entry_run</title>
 <polygon fill="#0e0f11" stroke="black" stroke-width="0.1" points="1384,-108 952,-108 952,-32 1384,-32 1384,-108"/>
-<text text-anchor="start" x="959" y="-73.8" font-family="monospace" font-size="14.00" fill="#ffffff">$ hello_world</text>
+<text text-anchor="start" x="959" y="-73.8" font-family="monospace" font-size="14.00" fill="#ffffff">$ fashion</text>
 <text text-anchor="start" x="959" y="-58.8" font-family="monospace" font-size="14.00" fill="#ffffff">Hello World!</text>
 </g>
 <!-- use_build -->
