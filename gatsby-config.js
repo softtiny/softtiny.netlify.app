@@ -65,6 +65,14 @@ module.exports = {
         name: 'treev3' // 名称，可以用来过滤
       }
     },
+    //algebra
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/algebra`,// 文件路径
+        name: 'algebra' // 名称，可以用来过滤
+      }
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
