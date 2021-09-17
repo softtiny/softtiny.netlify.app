@@ -72,7 +72,7 @@ export const query = graphql`
   }
 `
 
-export default Treev3
+export default Rust
 
 // {tree.allFile.edges.map(({node:{relativePath}})=>{
 //     return (<li>
