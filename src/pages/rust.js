@@ -2,7 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import {  Link,graphql } from "gatsby"
-const Treev3 = ({data:{rust,datoCmsWork}}) =>{ 
+const Rust = ({data:{rust,datoCmsWork}}) =>{ 
     console.log(rust)
     if(!datoCmsWork){
         datoCmsWork={title:'',excerpt:'',coverImage:{fluid:'404'},descriptionNode:{childMarkdownRemark:{html:'<b><b>'}}}
