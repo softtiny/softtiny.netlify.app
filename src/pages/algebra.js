@@ -2,7 +2,7 @@ import React from 'react'
 import Img from 'gatsby-image'
 import Layout from "../components/layout"
 import {  Link,graphql } from "gatsby"
-const Treev3 = ({data:{algebra,datoCmsWork}}) =>{ 
+const Algebra = ({data:{algebra,datoCmsWork}}) =>{ 
     console.log(algebra)
     if(!datoCmsWork){
         datoCmsWork={title:'',excerpt:'',coverImage:{fluid:'404'},descriptionNode:{childMarkdownRemark:{html:'<b><b>'}}}
@@ -46,7 +46,7 @@ const Treev3 = ({data:{algebra,datoCmsWork}}) =>{
     )
 }
 export const query = graphql`
-  query treev3Query {
+  query algebraQuery {
     algebra: allFile(filter: { sourceInstanceName: { eq: "algebra" } }) {
         edges {
           node {
