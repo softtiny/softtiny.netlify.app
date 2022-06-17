@@ -41,12 +41,6 @@ export default ({ data }) => {
             __html: data.datoCmsWork.descriptionNode.childMarkdownRemark.html,
           }}
         />
-        <div
-            className="sheet__body"
-              dangerouslySetInnerHTML={{
-                __html: datoCmsWork.descriptionNode.childMarkdownRemark.html,
-              }}
-        />
         <div className="sheet__gallery">
           <Img fluid={data.datoCmsWork.coverImage.fluid} />
         </div>
