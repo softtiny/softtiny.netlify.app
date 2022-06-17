@@ -17,7 +17,7 @@ export default ({ data }) => {
                 </li>
                 { data.datoCmsWork.allSvg.svgs.map(({url,base},idx)=>{
                     return (<li key={idx} >
-                        <a href={url} target="_blank">{base}</a>
+                        <a href={`/filesystem/${data.datoCmsWork.slug}/${base}.svg`} target="_blank">{base}</a>
                     </li>)
                 }) }
              </ul>
