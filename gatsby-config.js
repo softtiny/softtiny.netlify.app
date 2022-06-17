@@ -1,14 +1,14 @@
 require('dotenv').config()
-var proxy = require("http-proxy-middleware")
+const { createProxyMiddleware } = require("http-proxy-middleware")
 
 module.exports = {
   siteMetadata: {
-    title: `Creative Portfolio`,
+    title: `FUCK GFW`,
   },
     developMiddleware: app => {
         app.use(
                   "/.netlify/functions/",
-            proxy({
+            createProxyMiddleware({
                         target: "http://localhost:9000",
                 pathRewrite: {
                               "/.netlify/functions/": "",
@@ -30,6 +30,18 @@ module.exports = {
         apiToken: process.env.DATO_API_TOKEN,
       },
     },
+    {
+        resolve: 'gatsby-source-filesystem',
+        options: {
+            path: `${__dirname}/static/filesystem`,
+            name: 'filesystem',
+        }
+    },
+  ],
+}
+/*
+var aa = {
+  [
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -89,3 +101,4 @@ module.exports = {
     }
   ],
 }
+*/

@@ -1,54 +1,54 @@
+<p align="center">
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Gatsby minimal starter
+</h1>
 
-# Gatsby Portfolio Website
+## 🚀 Quick start
 
-This repo contains a static website written with [GatsbyJS](https://www.gatsbyjs.org/), integrated with content coming from [DatoCMS](https://www.datocms.com).
+1.  **Create a Gatsby site.**
 
-![Preview](preview.png)
+    Use the Gatsby CLI to create a new site, specifying the minimal starter.
 
-[See the live demo](https://cranky-edison-12166d.netlify.com/)
+    ```shell
+    # create a new Gatsby site using the minimal starter
+    npm init gatsby
+    ```
 
-If you want to use try this out yourself, you first need to set up a project on DatoCMS which will host your data.
+2.  **Start developing.**
 
-You can [sign up for a free account](https://dashboard.datocms.com/signup) and then you can simply click this button:
+    Navigate into your new site’s directory and start it up.
 
-[![Deploy with DatoCMS](https://dashboard.datocms.com/deploy/button.svg)](https://dashboard.datocms.com/projects/new-from-template/static-website/gatsby-portfolio)
+    ```shell
+    cd my-gatsby-site/
+    npm run develop
+    ```
 
-## Repo usage
+3.  **Open the code and start customizing!**
 
-First, install the dependencies of this project:
+    Your site is now running at http://localhost:8000!
 
-```
-yarn install
-```
+    Edit `src/pages/index.js` to see your site update in real-time!
 
-Add an `.env` file containing the read-only API token of your DatoCMS site:
+4.  **Learn more**
 
-```
-echo 'DATO_API_TOKEN=abc123' >> .env
-```
+    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-Then, to run this website in development mode (with live-reload):
+    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-```
-yarn develop
-```
+    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-To build the final, production ready static website:
+    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-```
-yarn build
-```
+    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-The final result will be saved in the `public` directory.
+    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## About
+## 🚀 Quick start (Gatsby Cloud)
 
-The goal of this project is to show how easily you can create static sites using the content (text, images, links, etc.) stored on [DatoCMS](https://www.datocms.com). This project is configured to fetch data from a specific administrative area using [the API DatoCMS provides](https://www.datocms.com/docs/content-management-api).
+Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
-You can find further information about how to integrate DatoCMS with Gatsby in [our documentation](https://www.datocms.com/docs/static-generators/gatsbyjs).
-
-This websites uses:
-
-* [Yarn](https://yarnpkg.com/) as package manager;
-* [GatsbyJS](https://github.com/gatsbyjs/gatsby) as website generator;
-* [gatsby-source-datocms](https://github.com/datocms/gatsby-source-datocms) to integrate the website with DatoCMS.
+[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)

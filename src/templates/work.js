@@ -2,12 +2,28 @@ import React from 'react'
 import Slider from 'react-slick'
 import { HelmetDatoCms } from 'gatsby-source-datocms'
 import Img from 'gatsby-image'
-import { graphql } from 'gatsby'
+import { Link,graphql } from 'gatsby'
 import Layout from "../components/layout"
 
-export default ({ data }) => (
+export default ({ data }) => {
+    console.log(data)
+    return (
   <Layout>
     <article className="sheet">
+        {data.datoCmsWork.svgs?(
+             <ul className="sidebar__menu spa">
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                { data.datoCmsWork.allSvg.svgs.map(({url,base},idx)=>{
+                    return (<li key={idx} >
+                        <a href={url} target="_blank">{base}</a>
+                    </li>)
+                }) }
+             </ul>
+        ):(
+            <div></div>
+        )}
       <HelmetDatoCms seo={data.datoCmsWork.seoMetaTags} />
       <div className="sheet__inner">
         <h1 className="sheet__title">{data.datoCmsWork.title}</h1>
@@ -30,12 +46,21 @@ export default ({ data }) => (
         </div>
       </div>
     </article>
-  </Layout>
-)
+  </Layout>      
+    )
+}
 
 export const query = graphql`
   query WorkQuery($slug: String!) {
     datoCmsWork(slug: { eq: $slug }) {
+      svgs
+      allSvg {
+        title
+        svgs {
+          url
+          base
+        }
+      }
       seoMetaTags {
         ...GatsbyDatoCmsSeoMetaTags
       }

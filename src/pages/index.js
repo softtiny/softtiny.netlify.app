@@ -9,24 +9,7 @@ const IndexPage = ({ data }) =>{
     <Layout>
       <Masonry className="showcase">
         {data.allDatoCmsWork.edges.map(({ node: work }) => {
-          let tLink
-          if(work.slug=="tree"){
-            tLink="/tree"
-          }else if(work.slug=="turbogears"){
-            tLink="/turbogears"
-          }else if(work.slug=="rust"){
-            tLink="/rust"
-          }else if(work.slug=="flask"){
-            tLink="/flask"
-          }else if(work.slug=="btree_v2"){
-            tLink="/tree_v2"
-          }else if(work.slug=="treev3"){
-            tLink="/treev3"
-          }else if(work.slug=="sitepkg"){
-            tLink="/sitepkg"
-          }else{
-            tLink=`/works/${work.slug}`
-          }
+          let tLink=`/works/${work.slug}`
           return (
             <div key={work.id} className="showcase__item">
               <figure className="card">
