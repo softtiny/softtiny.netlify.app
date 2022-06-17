@@ -17,7 +17,7 @@ export default ({ data }) => {
                 </li>
                 { data.datoCmsWork.allSvg.svgs.map(({url,base},idx)=>{
                     return (<li key={idx} >
-                        <a href={`/filesystem/${data.datoCmsWork.slug}/${base}.svg`} target="_blank">{base}</a>
+                        <a href={`/filesystem/${data.datoCmsWork.slug}/${base}`} target="_blank">{base}</a>
                     </li>)
                 }) }
              </ul>
@@ -53,6 +53,7 @@ export default ({ data }) => {
 export const query = graphql`
   query WorkQuery($slug: String!) {
     datoCmsWork(slug: { eq: $slug }) {
+      slug
       svgs
       allSvg {
         title
