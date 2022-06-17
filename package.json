@@ -24,7 +24,7 @@
     "gatsby-source-filesystem": "^4.16.0",
     "gatsby-transformer-remark": "^5.16.0",
     "netlify-identity-widget": "^1.9.2",
-    "react": "^18.1.0",
+    "react": "^17.0.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
     "react-masonry-component": "^6.3.0",
