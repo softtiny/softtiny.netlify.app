@@ -1,8 +1,8 @@
 {
-  "name": "blog.softtiny.tk",
+  "name": "softtiny.netlify.app",
   "version": "1.0.0",
   "private": true,
-  "description": "blog.softtiny.tk",
+  "description": "softtiny.netlify.app",
   "keywords": [
     "gatsby"
   ],
