@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 import { StaticQuery, graphql } from "gatsby"
 import { HelmetDatoCms } from 'gatsby-source-datocms'
+import { Helmet } from 'react-helmet';
 
 import '../styles/index.sass'
 
@@ -36,6 +37,12 @@ const TemplateWrapper = ({ children }) => (
         favicon={data.datoCmsSite.faviconMetaTags}
         seo={data.datoCmsHome.seoMetaTags}
       />
+      <Helmet>
+        <title>GITHUB USER:softtiny</title>
+        <meta name="google-site-verification" content="c536duCP08rXOS9ptXSXzXnTAkrdrFDmKQl11vyzcBw" />
+        <meta name="description" content="github user: softtiny,softtiny's project 'softtiny.netlify.app'" />
+        <link rel="canonical" href="https://github.com/softtiny/softtiny.netlify.app" />
+      </Helmet>
       <div className="container__sidebar">
         <div className="sidebar">
           <h6 className="sidebar__title">
