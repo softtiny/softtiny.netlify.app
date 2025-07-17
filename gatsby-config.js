@@ -4,6 +4,7 @@ const { createProxyMiddleware } = require("http-proxy-middleware")
 module.exports = {
   siteMetadata: {
     title: `FUCK GFW`,
+    siteUrl: `https://softtiny.netlify.app`,
   },
     developMiddleware: app => {
         app.use(
