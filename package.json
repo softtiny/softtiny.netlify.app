@@ -25,7 +25,7 @@
     "gatsby-transformer-remark": "^5.16.0",
     "netlify-identity-widget": "^1.9.2",
     "gatsby-plugin-robots-txt": "1.7.1",
-    "gatsby-plugin-sitemap": "^6.14.0",
+    "gatsby-plugin-sitemap": "5.19.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-helmet": "^6.1.0",
